@@ -24,7 +24,7 @@ public partial class App : Application
         {
             _host = Host.CreateDefaultBuilder().ConfigureServices(services =>
             {
-                services.AddSingleton<INotificationDialogService, NotificationDialogService>();
+                services.AddSingleton<INotificationDialogService, NotificationDialogService>(); // Add this Dependency Injection
                 services.AddSingleton<MainWindow>();
             }).Build();
         }
