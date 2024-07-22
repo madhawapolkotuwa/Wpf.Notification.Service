@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0-windows7.0</TargetFramework>
 		<UseWPF>true</UseWPF>
+		<PackageId>MpCoding.WPF.Notification.Service</PackageId>
 		<AssemblyName>MpCoding.WPF.Notification</AssemblyName>
 		<RootNamespace>MpCoding.WPF.Notification</RootNamespace>
 		<ApplicationIcon>MpCodingDP.ico</ApplicationIcon>
@@ -16,6 +17,10 @@
 		<Description>A simple WPF Notification service for all project types.</Description>
 		<Copyright>MpCoding @ 2024</Copyright>
 		<PackageIcon>MpCodingDP.png</PackageIcon>
+		<PackageTags>WPF; Notification;</PackageTags>
+		<PackageReleaseNotes>A simple Notification service for Wpf Applications</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/madhawapolkotuwa/Wpf.Notification.Service.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/madhawapolkotuwa/Wpf.Notification.Service.git</PackageProjectUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
