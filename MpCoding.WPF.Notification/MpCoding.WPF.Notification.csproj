@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows7.0</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<AssemblyName>MpCoding.WPF.Notification</AssemblyName>
+		<RootNamespace>MpCoding.WPF.Notification</RootNamespace>
+		<ApplicationIcon>MpCodingDP.ico</ApplicationIcon>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>Madhawa.Polkotuwa</Authors>
+		<Company>MpCoding</Company>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Product>MpCoding WPF Notification Service</Product>
+		<Description>A simple WPF Notification service for all project types.</Description>
+		<Copyright>MpCoding @ 2024</Copyright>
+		<PackageIcon>MpCodingDP.png</PackageIcon>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Notes.txt" />
+		<None Remove="Resources\Images\accept.png" />
+		<None Remove="Resources\Images\cancel.png" />
+		<None Remove="Resources\Images\notify_error.png" />
+		<None Remove="Resources\Images\notify_info.png" />
+		<None Remove="Resources\Images\notify_success.png" />
+		<None Remove="Resources\Images\notify_warning.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Notes.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="MpCodingDP.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Notes.txt" />
+		<Resource Include="Resources\Images\accept.png" />
+		<Resource Include="Resources\Images\cancel.png" />
+		<Resource Include="Resources\Images\notify_error.png" />
+		<Resource Include="Resources\Images\notify_info.png" />
+		<Resource Include="Resources\Images\notify_success.png" />
+		<Resource Include="Resources\Images\notify_warning.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="MpCodingDP.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.122" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Themes\Generic.xaml" Pack="true" PackagePath="Themes\" />
+	</ItemGroup>
+
+</Project>

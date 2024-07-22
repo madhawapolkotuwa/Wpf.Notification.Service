@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ImageSource x:Key="notify_info">pack://application:,,,/MpCoding.WPF.Notification;component/Resources/Images/notify_info.png</ImageSource>
+    <ImageSource x:Key="notify_success">pack://application:,,,/MpCoding.WPF.Notification;component/Resources/Images/notify_success.png</ImageSource>
+    <ImageSource x:Key="notify_warning">pack://application:,,,/MpCoding.WPF.Notification;component/Resources/Images/notify_warning.png</ImageSource>
+    <ImageSource x:Key="notify_error">pack://application:,,,/MpCoding.WPF.Notification;component/Resources/Images/notify_error.png</ImageSource>
+    <ImageSource x:Key="cancel">pack://application:,,,/MpCoding.WPF.Notification;component/Resources/Images/cancel.png</ImageSource>
+    <ImageSource x:Key="accept">pack://application:,,,/MpCoding.WPF.Notification;component/Resources/Images/accept.png</ImageSource>
+</ResourceDictionary>
