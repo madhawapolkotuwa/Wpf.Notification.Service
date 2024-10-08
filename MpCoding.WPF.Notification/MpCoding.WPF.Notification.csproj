@@ -8,7 +8,7 @@
 		<RootNamespace>MpCoding.WPF.Notification</RootNamespace>
 		<ApplicationIcon>MpCodingDP.ico</ApplicationIcon>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.0.0</Version>
+		<Version>1.0.2</Version>
 		<Authors>Madhawa.Polkotuwa</Authors>
 		<Company>MpCoding</Company>
 		<RepositoryType>git</RepositoryType>
@@ -18,7 +18,7 @@
 		<Copyright>MpCoding @ 2024</Copyright>
 		<PackageIcon>MpCodingDP.png</PackageIcon>
 		<PackageTags>WPF; Notification;</PackageTags>
-		<PackageReleaseNotes>A simple Notification service for Wpf Applications</PackageReleaseNotes>
+		<PackageReleaseNotes>Project updated, Bug fix</PackageReleaseNotes>
 		<RepositoryUrl>https://github.com/madhawapolkotuwa/Wpf.Notification.Service.git</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/madhawapolkotuwa/Wpf.Notification.Service.git</PackageProjectUrl>
 	</PropertyGroup>

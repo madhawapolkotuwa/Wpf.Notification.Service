@@ -2,11 +2,12 @@
     x:Class="Testing.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:Testing">
+    xmlns:local="clr-namespace:Testing"
+    xmlns:mpdn="http://schemas.mpcoding.com/mpcoding/wpf/notification">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/MpCoding.WPF.Notification;component/Resources/NotificationView.xaml" />
+                <mpdn:CommonDictionary Source="pack://application:,,,/MpCoding.WPF.Notification;component/Resources/NotificationView.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

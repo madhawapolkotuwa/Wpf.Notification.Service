@@ -3,9 +3,20 @@
 ## When using MpCoding.WPF.Notification, 
    please add the below resource dictionary directly.
 ```xml
-<ResourceDictionary.MergedDictionaries>
-	<ResourceDictionary Source="pack://application:,,,/MpCoding.WPF.Notification;component/Resources/NotificationView.xaml" />
-</ResourceDictionary.MergedDictionaries>  
+<Application
+    x:Class="MainApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mpdn="http://schemas.mpcoding.com/mpcoding/wpf/notification"
+    xmlns:local="clr-namespace:MainApp">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <mpdn:CommonDictionary Source="pack://application:,,,/MpCoding.WPF.Notification;component/Resources/NotificationView.xaml" />
+            </ResourceDictionary.MergedDictionaries>  
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
 ```
 
 ## Dependency Injection Integration:

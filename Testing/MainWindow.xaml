@@ -8,6 +8,11 @@
     Title="Notify App"
     Width="700"
     Height="400"
+    ResizeMode="NoResize"
+    Topmost="True"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Maximized"
+    WindowStyle="None"
     mc:Ignorable="d">
     <Grid>
         <Grid.RowDefinitions>

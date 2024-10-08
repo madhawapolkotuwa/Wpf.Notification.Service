@@ -5,10 +5,15 @@
     <TargetFramework>net6.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>MpCodingDP.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="MpCodingDP.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MpCodingDP.ico" />
   </ItemGroup>
 
   <ItemGroup>

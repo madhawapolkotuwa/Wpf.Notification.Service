@@ -29,6 +29,7 @@ using System.Windows;
 
 [assembly: XmlnsPrefix("http://schemas.mpcoding.com/mpcoding/wpf/notification", "WPFNotification")]
 
+[assembly: XmlnsDefinition("http://schemas.mpcoding.com/mpcoding/wpf/notification", "MpCoding.WPF.Notification.Dictionaries")]
 [assembly: XmlnsDefinition("http://schemas.mpcoding.com/mpcoding/wpf/notification", "MpCoding.WPF.Notification.Controls")]
 [assembly: XmlnsDefinition("http://schemas.mpcoding.com/mpcoding/wpf/notification", "MpCoding.WPF.Notification.Converters")]
 [assembly: XmlnsDefinition("http://schemas.mpcoding.com/mpcoding/wpf/notification", "MpCoding.WPF.Notification.Enums")]
